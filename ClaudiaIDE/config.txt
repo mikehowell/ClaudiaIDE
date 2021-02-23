@@ -10,7 +10,12 @@
 	"UpdateImageInterval":"PT30M",
 	"ImageFadeAnimationInterval":"PT30S",
 	"LoopSlideshow":true,
+    "ShuffleSlideshow":false,
 	"MaxWidth": 0,
 	"MaxHeight": 0,
-	"ExpandToIDE": false
+	"SoftEdgeX": 0,
+	"SoftEdgeY": 0,
+	"ExpandToIDE": false,
+	"ViewBoxPointX": 0,
+	"ViewBoxPointY": 0
 }

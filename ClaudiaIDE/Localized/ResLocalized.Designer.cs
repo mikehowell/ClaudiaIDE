@@ -19,7 +19,7 @@ namespace ClaudiaIDE.Localized {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class ResLocalized {
@@ -70,7 +70,7 @@ namespace ClaudiaIDE.Localized {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Types of background image. Single: Displays the specified image. SlideShow: will the image of the specified folder to display slideshow..
+        ///   Looks up a localized string similar to Types of background image. Single: Displays the specified image. SlideShow: will the image of the specified folder to display slideshow. SingleEach: Displays one different image in the specified folder per opened tab..
         /// </summary>
         internal static string BackgroundTypeDes {
             get {
@@ -295,6 +295,33 @@ namespace ClaudiaIDE.Localized {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Shuffle Slideshow.
+        /// </summary>
+        internal static string ShuffleSlideshowType {
+            get {
+                return ResourceManager.GetString("ShuffleSlideshowType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Randomize the slideshow order..
+        /// </summary>
+        internal static string ShuffleSlideshowTypeDes {
+            get {
+                return ResourceManager.GetString("ShuffleSlideshowTypeDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SingleEach.
+        /// </summary>
+        internal static string SingleEach {
+            get {
+                return ResourceManager.GetString("SingleEach", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to SingleImage.
         /// </summary>
         internal static string SingleImage {
@@ -309,6 +336,33 @@ namespace ClaudiaIDE.Localized {
         internal static string Slideshow {
             get {
                 return ResourceManager.GetString("Slideshow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How much soft edge applied to background image..
+        /// </summary>
+        internal static string SoftEdgeDes {
+            get {
+                return ResourceManager.GetString("SoftEdgeDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SoftEdge Width (X axis).
+        /// </summary>
+        internal static string SoftEdgeX {
+            get {
+                return ResourceManager.GetString("SoftEdgeX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SoftEdge Width (Y axis).
+        /// </summary>
+        internal static string SoftEdgeY {
+            get {
+                return ResourceManager.GetString("SoftEdgeY", resourceCulture);
             }
         }
         
@@ -345,6 +399,42 @@ namespace ClaudiaIDE.Localized {
         internal static string VerticalAlignmentTypeDes {
             get {
                 return ResourceManager.GetString("VerticalAlignmentTypeDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image horizontal position in ViewBox.
+        /// </summary>
+        internal static string ViewBoxPointX {
+            get {
+                return ResourceManager.GetString("ViewBoxPointX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This property can set a double value for the Image horizontal position in WPF ViewBox..
+        /// </summary>
+        internal static string ViewBoxPointXDes {
+            get {
+                return ResourceManager.GetString("ViewBoxPointXDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image vertical position in ViewBox.
+        /// </summary>
+        internal static string ViewBoxPointY {
+            get {
+                return ResourceManager.GetString("ViewBoxPointY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This property can set double value about Image vertical position in WPF ViewBox..
+        /// </summary>
+        internal static string ViewBoxPointYDes {
+            get {
+                return ResourceManager.GetString("ViewBoxPointYDes", resourceCulture);
             }
         }
     }

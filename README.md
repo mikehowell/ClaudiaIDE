@@ -1,7 +1,34 @@
 ClaudiaIDE
 ==========
 
-This extension change the background image of editor.
+This is a Visual Studio extension that lets you set a custom background image or slideshow.
+
+## ver 2.2.x ##
+
+Flickering has maybe been decreased, however the image fade interval option isn't supported for slideshows because problem effect by this update. If you want to expand the image to the full IDE window ("expand to IDE" option), ClaudiaIDE does not require theme editor. ClaudiaIDE automaticaly makes some backgrounds transparent (e.g. the text editor). However, for now, some windows, such as the solution explorer, still need to be made transaperent with theme editor, like as [Color Theme Editor for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2019ColorThemeEditor).
+
+Enabling the option "User hardware graphics acceleration if available" will reduce flickering.
+
+![hardware acceleration](Images/workaround01.png)
+
+## ver 2.1.0 ##
+
+Support versions changed as follows:
+
+* Visual Studio 2017 (15.8 or later)
+* Visual Studio 2019 (preview or RTM)
+
+### Braking Changes ###
+
+Visual Studio 2019 (16.1) extensions can support AsyncPackage only. ClaudiaIDE's this version change to AsyncPackage.
+
+AsyncPackage can support Visual Studio 2015 or later. I decided move to forward and I don't support old Visual Studio versions (2017 15.8 or earlier). If you want to use this extension on old Visual Studio versions (2017 15.8 or earlier), you can use [1.28.6](https://github.com/buchizo/ClaudiaIDE/releases/tag/Release1.28.6). 
+
+* If you already install 2.0.x to Visual Studio 2015 or Visual Studio 2017 (15.8 or ealier), you will uninstall 2.0.x and re-install 1.28.6 ClaudiaIDE.vsix.
+
+## ver 1.28.6 ##
+
+Support Visual Studio 2019 Preview 1
 
 ## ver 1.26 ##
 

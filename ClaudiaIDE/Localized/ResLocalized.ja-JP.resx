@@ -121,7 +121,7 @@
     <value>背景の表示形式</value>
   </data>
   <data name="BackgroundTypeDes" xml:space="preserve">
-    <value>背景の表示形式を選択します。 Single: 指定された画像を表示します。 SlideShow: 指定されたフォルダーの画像をスライドショー表示します。 </value>
+    <value>背景の表示形式を選択します。 Single: 指定された画像を表示します。 SlideShow: 指定されたフォルダーの画像をスライドショー表示します。 SingleEach: エディタウィンドウ毎に指定されたフォルダーの画像を表示します。 </value>
   </data>
   <data name="DirectoryPathType" xml:space="preserve">
     <value>フォルダーパス</value>
@@ -189,6 +189,15 @@
   <data name="MaxWidthTypeDes" xml:space="preserve">
     <value>画像を表示する領域の最大横幅を指定します。 0を指定した場合、描画できる領域すべてを使用します。</value>
   </data>
+  <data name="SoftEdgeX" xml:space="preserve">
+    <value>ぼかし幅 (X軸)</value>
+  </data>
+  <data name="SoftEdgeY" xml:space="preserve">
+    <value>ぼかし幅 (Y軸)</value>
+  </data>
+  <data name="SoftEdgeDes" xml:space="preserve">
+    <value>背景画像のぼかし処理の幅を指定します。0の場合ぼかし処理は行いません。</value>
+  </data>
   <data name="OpacityType" xml:space="preserve">
     <value>透過率</value>
   </data>
@@ -201,6 +210,9 @@
   <data name="Slideshow" xml:space="preserve">
     <value>スライドショー</value>
   </data>
+  <data name="SingleEach" xml:space="preserve">
+    <value>エディタウィンドウ毎に単一画像</value>
+  </data>
   <data name="UpdateIntervalType" xml:space="preserve">
     <value>切り替え間隔</value>
   </data>
@@ -212,5 +224,23 @@
   </data>
   <data name="VerticalAlignmentTypeDes" xml:space="preserve">
     <value>画像の垂直方向の基準となる位置を設定します。 Bottom: 下端を基準とします Center: 中心を基準とします Top: 上端を基準とします</value>
+  </data>
+  <data name="ViewBoxPointX" xml:space="preserve">
+    <value>画像の水平位置</value>
+  </data>
+  <data name="ViewBoxPointY" xml:space="preserve">
+    <value>画像の垂直位置</value>
+  </data>
+  <data name="ViewBoxPointXDes" xml:space="preserve">
+    <value>このプロパティは画像のWPFのViewBoxにおける水平位置をdouble型で指定できます。</value>
+  </data>
+  <data name="ViewBoxPointYDes" xml:space="preserve">
+    <value>このプロパティは画像のWPFのViewBoxにおける垂直位置をdouble型で指定できます。</value>
+  </data>
+  <data name="ShuffleSlideshowType" xml:space="preserve">
+    <value>スライドショーをランダム再生</value>
+  </data>
+  <data name="ShuffleSlideshowTypeDes" xml:space="preserve">
+    <value>スライドショーをランダム再生します。</value>
   </data>
 </root>
